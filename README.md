@@ -1,4 +1,5 @@
 A Iterative Morphological Filtering Algorithm for Producing DEM from Gridded DSM
+
 Shaobo Linghu, Wenlong Song, Yizhu Lu, Kaizheng Xiang, Hongjie Liu, Long Chen, Tianshi Feng, Rongjie Gui, Yao Zhao and Haider Abbas
 
 This is an algorithm for producing DEM from gridded DSM
@@ -17,7 +18,10 @@ Parameter explanation：
 *block_size is the size of the block of the image block operation, which can be adjusted according to the actual situation, for smaller images, it can be directly set to the block size larger than the image size, which can avoid blocking, if you need to divide the block, please choose a reasonable size to avoid the appearance of narrow strip blocks when blocking
 *overlap_size is the size of the overlapping area between blocks, which can be set to 0 to cancel the overlapping area
 *use_min_cut_for_overlap is used to set whether to enable the graph cutting algorithm, the overlapping areas without the graph cutting algorithm will be filled with the minimum value, set True on, False off
+
 Original DSM
 ![image](https://github.com/user-attachments/assets/bb5c685a-4f58-4754-94bb-702b0f44a1e4)
 DEM from IMF
 ![image](https://github.com/user-attachments/assets/a3b474bf-04f0-4327-8a3f-a8d03d159b75)
+
+The images in the Test_DSM_files come from the ISPRS Vaihingen dataset, which can be obtained by cropping, and the result can be obtained by entering the extracted folder IMF.py running

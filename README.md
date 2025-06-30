@@ -38,3 +38,5 @@ DEM from IMF
 ![image](https://github.com/user-attachments/assets/a3b474bf-04f0-4327-8a3f-a8d03d159b75)
 
 The images in the Test_DSM_files come from the ISPRS Vaihingen dataset, which can be obtained by cropping, and the result can be obtained by entering the extracted folder IMF.py running
+
+Requirements: Python version 3.9, GDAL (Geospatial Data Abstraction Library), SciPy
